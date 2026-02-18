@@ -28,6 +28,10 @@ npm start
 
 ## Pages
 
-- **Home** — Hero banner with “Drinkeaze”, category sections (Parfaits, Smoothies, Coffee, Juices), Karachi delivery info, and contact footer.
+- **Home** — Hero banner, **Menu (products)** from `src/data/drinkeaze-products.ts`, category sections (Parfaits, Smoothies, Coffee, Juices), Karachi delivery info, and contact footer.
+
+## Products
+
+All menu items are defined in **`src/data/drinkeaze-products.ts`**. Edit that file to add, remove, or update products. Types are in `src/types/product.ts`. No external API — everything is handled on the frontend via this data file.
 
 Serving **Karachi only** for now; contact and delivery info are Karachi-focused.

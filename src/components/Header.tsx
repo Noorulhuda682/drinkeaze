@@ -2,13 +2,11 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
+import CartIcon from '@/src/components/CartIcon'
 
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/#parfaits', label: 'Parfaits' },
-  { href: '/#smoothies', label: 'Smoothies' },
-  { href: '/#coffee', label: 'Coffee' },
-  { href: '/#juices', label: 'Juices' },
+  { href: '/#products', label: 'Menu' },
   { href: '/#contact', label: 'Contact' },
 ]
 
@@ -24,7 +22,7 @@ export default function Header() {
         >
           Drinkeaze
         </Link>
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -34,7 +32,11 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
+          <CartIcon />
         </nav>
+        <div className="md:hidden">
+          <CartIcon />
+        </div>
         <button
           type="button"
           className="md:hidden p-2 rounded-lg text-drinkeaze-dark"
@@ -62,6 +64,13 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
+          <Link
+            href="/cart"
+            className="text-drinkeaze-dark/90 hover:text-drinkeaze-mango font-medium py-2"
+            onClick={() => setOpen(false)}
+          >
+            Cart
+          </Link>
         </nav>
       )}
     </header>

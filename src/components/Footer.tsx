@@ -14,13 +14,21 @@ export default function Footer() {
           <div>
             <h4 className="font-display font-semibold text-white mb-3">Quick links</h4>
             <ul className="space-y-2">
-              {['Parfaits', 'Smoothies', 'Coffee', 'Juices'].map((name) => (
-                <li key={name}>
-                  <Link href={`/#${name.toLowerCase()}`} className="text-drinkeaze-cream/80 hover:text-drinkeaze-mint transition text-sm">
-                    {name}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link href="/#products" className="text-drinkeaze-cream/80 hover:text-drinkeaze-mint transition text-sm">
+                  Menu
+                </Link>
+              </li>
+              <li>
+                <Link href="/cart" className="text-drinkeaze-cream/80 hover:text-drinkeaze-mint transition text-sm">
+                  Cart
+                </Link>
+              </li>
+              <li>
+                <Link href="/#contact" className="text-drinkeaze-cream/80 hover:text-drinkeaze-mint transition text-sm">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

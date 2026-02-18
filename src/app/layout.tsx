@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-// import "@/globals.css";
 import Header from "@/src/components/Header";
 import Footer from "@/src/components/Footer";
+import { Providers } from "@/src/components/Providers";
 
 export const metadata: Metadata = {
   title: "Drinkeaze | Fresh Juices, Smoothies, Parfaits & Coffee — Karachi",
@@ -35,9 +35,11 @@ export default function RootLayout({
         />
       </head>
       <body className="font-body min-h-screen flex flex-col">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <Providers>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
