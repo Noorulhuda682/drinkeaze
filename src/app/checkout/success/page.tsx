@@ -1,8 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
 export default function CheckoutSuccessPage() {
+  const searchParams = useSearchParams();
+  const payment = searchParams.get("payment");
+  const paymentLabel =
+    payment === "online" ? "Online Payment" : "Cash on Delivery";
+
   return (
     <div className="max-w-xl mx-auto px-4 sm:px-6 py-16 sm:py-24 text-center">
       <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-drinkeaze-mint/20 text-drinkeaze-mint mb-8">
@@ -24,10 +30,16 @@ export default function CheckoutSuccessPage() {
       <h1 className="font-display font-bold text-2xl sm:text-3xl text-drinkeaze-dark mb-3">
         Thank you for your order
       </h1>
-      <p className="text-drinkeaze-dark/70 font-body mb-8">
+      <p className="text-drinkeaze-dark/70 font-body mb-2">
         We&apos;ve received your order and will prepare it soon. You&apos;ll be
         contacted for delivery confirmation.
       </p>
+      {payment && (
+        <p className="text-drinkeaze-dark/60 font-body text-sm mb-8">
+          Payment: {paymentLabel}
+        </p>
+      )}
+      {!payment && <div className="mb-8" />}
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <Link
           href="/#products"

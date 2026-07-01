@@ -6,10 +6,13 @@ import { useRouter } from "next/navigation";
 import { useCart } from "@/src/context/CartContext";
 import { useState } from "react";
 
+type PaymentMethod = "cash" | "online";
+
 export default function CheckoutPage() {
   const router = useRouter();
   const { items, itemCount, subtotal, clearCart } = useCart();
   const [loading, setLoading] = useState(false);
+  const [paymentMethod, setPaymentMethod] = useState<PaymentMethod>("cash");
   const [form, setForm] = useState({
     name: "",
     phone: "",
@@ -27,11 +30,10 @@ export default function CheckoutPage() {
     if (itemCount === 0) return;
     setLoading(true);
     try {
-      // In a real app you would send the order to your backend/API
-      // For now we simulate success and redirect
+      // In a real app you would send the order + paymentMethod to your backend/API
       await new Promise((r) => setTimeout(r, 800));
       clearCart();
-      router.push("/checkout/success");
+      router.push(`/checkout/success?payment=${paymentMethod}`);
     } catch {
       setLoading(false);
     }
@@ -134,6 +136,46 @@ export default function CheckoutPage() {
                   placeholder="Any special instructions"
                 />
               </label>
+            </div>
+          </div>
+
+          <div className="rounded-2xl bg-white border border-drinkeaze-sand/30 p-6 sm:p-8 shadow-sm">
+            <h2 className="font-display font-semibold text-lg text-drinkeaze-dark mb-4">
+              Payment Information
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <button
+                type="button"
+                onClick={() => setPaymentMethod("cash")}
+                className={`flex flex-col items-center justify-center gap-3 p-6 rounded-xl border-2 bg-drinkeaze-cream/50 transition text-left ${
+                  paymentMethod === "cash"
+                    ? "border-drinkeaze-mint ring-2 ring-drinkeaze-mint/30"
+                    : "border-drinkeaze-sand/30 hover:border-drinkeaze-sand/50"
+                }`}
+              >
+                <span className="flex items-center justify-center w-14 h-14 rounded-xl bg-drinkeaze-mint/20 text-drinkeaze-mint" aria-hidden>
+                  <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 9V7a2 2 0 00-2-2H9a2 2 0 00-2 2v2M7 15h10a2 2 0 002-2V9a2 2 0 00-2-2H7a2 2 0 00-2 2v4a2 2 0 002 2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 11h10" />
+                  </svg>
+                </span>
+                <span className="font-medium text-drinkeaze-dark">Cash on Delivery</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setPaymentMethod("online")}
+                className={`flex flex-col items-center justify-center gap-3 p-6 rounded-xl border-2 bg-drinkeaze-cream/50 transition text-left ${
+                  paymentMethod === "online"
+                    ? "border-drinkeaze-mint ring-2 ring-drinkeaze-mint/30"
+                    : "border-drinkeaze-sand/30 hover:border-drinkeaze-sand/50"
+                }`}
+              >
+                <span className="flex items-center justify-center gap-1.5" aria-hidden>
+                  <span className="inline-flex items-center justify-center px-2.5 py-1.5 rounded text-[10px] font-bold text-white bg-[#1A1F71]">VISA</span>
+                  <span className="inline-flex items-center justify-center px-2.5 py-1.5 rounded text-[10px] font-bold text-white bg-[#EB001B]">MC</span>
+                </span>
+                <span className="font-medium text-drinkeaze-dark">Online Payment</span>
+              </button>
             </div>
           </div>
         </div>
