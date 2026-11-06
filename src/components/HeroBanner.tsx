@@ -9,7 +9,7 @@ export default function HeroBanner() {
       <div className="absolute bottom-20 right-10 w-60 h-60 rounded-full bg-drinkeaze-mango/10 blur-3xl" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <p className="font-body text-drinkeaze-mango font-semibold tracking-widest uppercase text-sm mb-4 animate-fade-in">
+        <p className="font-body text-yellow-400 font-bold tracking-widest uppercase text-sm mb-4 animate-fade-in">
           Fresh in Karachi
         </p>
         <h1 className="font-display font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-drinkeaze-dark tracking-tight animate-slide-up">
