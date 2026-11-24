@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --drinkeaze-mango: #48CAE4;
+  --drinkeaze-mint: #48CAE4;
+  --drinkeaze-berry: #0c2d38;
+  --drinkeaze-cream: #f8f9fa;
+  --drinkeaze-dark: #0f172a;
+  --drinkeaze-sand: #e2e8f0;
+  --drinkeaze-coral: #dc2626;
+  --font-display: "Outfit", system-ui, sans-serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+}
+
+body {
+  @apply bg-[#f4f5f6] text-slate-900 antialiased;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

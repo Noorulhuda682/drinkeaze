@@ -1,0 +1,894 @@
+{
+  "data": {
+    "restaurantCatalog": [
+      {
+        "uid": "0x517fbc",
+        "name": "Juiceaze",
+        "bvid": "79e3f32b-5521-4aed-b248-1d968c352655",
+        "imgUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/1f804f0c-a44f-47ee-04ed-ebf24cf92300/public",
+        "showTitle": true,
+        "layout": "SideBySideLayout",
+        "products": [
+          {
+            "name": "Abc Regular ",
+            "barcode": "abcm",
+            "manufacturerCode": null,
+            "bvid": "c6dda2a6-e1ee-44e1-9262-b4b12ed885f8",
+            "description": "A mixture of apple beetroot and carrot \nWith ice ",
+            "loyaltyPoints": 10,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/b1104d65-3e6d-4991-e351-e153b5ae2200/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/b1104d65-3e6d-4991-e351-e153b5ae2200/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 250,
+            "quantity": null,
+            "discountedPrice": 250,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": null,
+            "maxOrderQuantity": null,
+            "minOrderQuantity": null,
+            "__typename": "Product"
+          },
+          {
+            "name": "Abc",
+            "barcode": "abc01",
+            "manufacturerCode": null,
+            "bvid": "b70ec40b-7ec8-4ed3-b2f8-6ee5c588cefa",
+            "description": " Apple beetroot and carrot with ice ",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/ed4401e2-cbaf-4b31-8ee0-082dd7329100/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/ed4401e2-cbaf-4b31-8ee0-082dd7329100/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 350,
+            "quantity": null,
+            "discountedPrice": 350,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Red blend regular ",
+            "barcode": "dri-HSq",
+            "manufacturerCode": null,
+            "bvid": "fc4cc776-1cef-484c-90ca-93e1edc2e600",
+            "description": "Apple beetroot cucumber and celery with lemon and ice ",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/17e66a07-3b2d-4d90-6681-5f495dd33000/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/17e66a07-3b2d-4d90-6681-5f495dd33000/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 370,
+            "quantity": null,
+            "discountedPrice": 370,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Apple juice (All Star ⭐)",
+            "barcode": "aj002",
+            "manufacturerCode": null,
+            "bvid": "b64de2a1-bdee-4cc3-96d6-dc09913ddbee",
+            "description": "Apple juice with ice ",
+            "loyaltyPoints": 10,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/db4b4516-a0f5-4aa0-4d3b-1a6d88392100/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/db4b4516-a0f5-4aa0-4d3b-1a6d88392100/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 340,
+            "quantity": null,
+            "discountedPrice": 340,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Apple juice  (Regular)",
+            "barcode": "aj001",
+            "manufacturerCode": null,
+            "bvid": "68c4903d-2e84-4c62-9bac-5700595a70f7",
+            "description": "Simple apple juice  with ice ",
+            "loyaltyPoints": 5,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/b3a9a3c6-82aa-4756-7e69-bfadf50bbd00/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/b3a9a3c6-82aa-4756-7e69-bfadf50bbd00/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 250,
+            "quantity": null,
+            "discountedPrice": 250,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Power house ",
+            "barcode": "dri-2Mg",
+            "manufacturerCode": null,
+            "bvid": "c9acfa55-5a45-46bd-8647-a5349e367b0a",
+            "description": "Apple orange cucumber carrot mint ginger.",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/a59a3616-8790-483f-3493-26458d785200/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/a59a3616-8790-483f-3493-26458d785200/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 380,
+            "quantity": null,
+            "discountedPrice": 380,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Carrot juice Regular ",
+            "barcode": "cj001",
+            "manufacturerCode": null,
+            "bvid": "c5302e13-94db-4fe0-be36-c21265c39cd7",
+            "description": "Carrot juice with ice ",
+            "loyaltyPoints": 5,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/f796eeca-e5ff-4867-698c-fa3d491d3c00/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/f796eeca-e5ff-4867-698c-fa3d491d3c00/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 230,
+            "quantity": null,
+            "discountedPrice": 230,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Carrot juice (All Star)",
+            "barcode": "cj002",
+            "manufacturerCode": null,
+            "bvid": "0ad691e4-834e-4889-b7fb-df775d94acec",
+            "description": "Carrot juice with ice ",
+            "loyaltyPoints": 10,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/43ae71ed-2d37-45af-98bf-ff51cda73700/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/43ae71ed-2d37-45af-98bf-ff51cda73700/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 300,
+            "quantity": null,
+            "discountedPrice": 300,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "All clear",
+            "barcode": "dri-DJQ",
+            "manufacturerCode": null,
+            "bvid": "7fe635f1-2933-4617-ae1a-f0f2bcbc4ec3",
+            "description": "Apple carrot lemon mint.",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/51fe5c20-df60-48ee-7b93-c6b39a260600/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/51fe5c20-df60-48ee-7b93-c6b39a260600/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 330,
+            "quantity": null,
+            "discountedPrice": 330,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Triple cleanser Regular ",
+            "barcode": "dri-1j2",
+            "manufacturerCode": null,
+            "bvid": "7a2a01f2-86a3-4c78-b2d9-8f05bb643868",
+            "description": "Apple Spanish cucumber ginger and lemon.",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/fe900d1f-d40a-4f9c-3b30-e254484ac600/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/fe900d1f-d40a-4f9c-3b30-e254484ac600/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 350,
+            "quantity": null,
+            "discountedPrice": 350,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Citrus blast",
+            "barcode": "dri-Kzo",
+            "manufacturerCode": null,
+            "bvid": "ff3a106f-7011-4992-9bbb-a8a2cd12e831",
+            "description": "Apple orange carrot lemon ice",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/350d1afc-eb18-4979-5a6b-850930973200/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/350d1afc-eb18-4979-5a6b-850930973200/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 350,
+            "quantity": null,
+            "discountedPrice": 350,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Red Blend",
+            "barcode": "dri-NUD",
+            "manufacturerCode": null,
+            "bvid": "42c60f9d-add0-4f51-ad00-081c88e57758",
+            "description": "Apple beetroot cucumber and celery with lemon and ice.",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/8412f97b-897d-4992-04eb-89ee3f390300/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/8412f97b-897d-4992-04eb-89ee3f390300/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 350,
+            "quantity": null,
+            "discountedPrice": 350,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Magical sea ",
+            "barcode": "dri-z8i",
+            "manufacturerCode": null,
+            "bvid": "e6bbcee1-c741-4afd-8012-b9113da2d106",
+            "description": "Apple Orange carrot Pomegranate ice",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/75407089-e248-49f3-d751-0de72d0bac00/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/75407089-e248-49f3-d751-0de72d0bac00/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 400,
+            "quantity": null,
+            "discountedPrice": 400,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          }
+        ],
+        "__typename": "RestaurantCategory"
+      },
+      {
+        "uid": "0x5196e7",
+        "name": "Mixed blend",
+        "bvid": "a23174cb-5f34-4833-8ba6-2c9d6511b290",
+        "imgUrl": "",
+        "showTitle": true,
+        "layout": "SideBySideLayout",
+        "products": [
+          {
+            "name": "Energize Core",
+            "barcode": "dri-2SC",
+            "manufacturerCode": null,
+            "bvid": "ce55c5ea-f48a-4920-b997-ded51f72f138",
+            "description": "Apple beetroot cucumber carrot ginger lemon spinach ",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/a4039581-6457-4efb-e51c-d9e335cdee00/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/a4039581-6457-4efb-e51c-d9e335cdee00/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 350,
+            "quantity": null,
+            "discountedPrice": 350,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "High Meta",
+            "barcode": "dri-7Uk",
+            "manufacturerCode": null,
+            "bvid": "c4f36b3f-7c0c-4165-a36b-1049be5a996f",
+            "description": "Apple cucumber beetroot orange ginger lemon mint ice ",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/296fbadc-5102-4822-cbe1-94ea48f93c00/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/296fbadc-5102-4822-cbe1-94ea48f93c00/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 350,
+            "quantity": null,
+            "discountedPrice": 350,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Red affair ",
+            "barcode": "dri-7wb",
+            "manufacturerCode": null,
+            "bvid": "5f47ec1c-c516-473e-8ff7-cf6c483ca7a0",
+            "description": "Orange apple beetroot carrot ginger celery.",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/8ab28320-2c38-4e05-e2ed-d435c05c8700/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/8ab28320-2c38-4e05-e2ed-d435c05c8700/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 380,
+            "quantity": null,
+            "discountedPrice": 380,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Magical sea ",
+            "barcode": "dri-dnP",
+            "manufacturerCode": null,
+            "bvid": "b39a3fff-b76d-44dc-9746-b46d127dc203",
+            "description": "Apple orange carrot pome .",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/0a7865d6-6f86-4474-69fc-8cab5feda800/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/0a7865d6-6f86-4474-69fc-8cab5feda800/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 330,
+            "quantity": null,
+            "discountedPrice": 330,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Reboot ",
+            "barcode": "dri-ho6",
+            "manufacturerCode": null,
+            "bvid": "00521e67-812f-4ba1-9b03-c5809e5e08c3",
+            "description": "Apple orange carrot grapes lemon",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/6ce573d5-96e6-487f-df39-7e00cb81bf00/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/6ce573d5-96e6-487f-df39-7e00cb81bf00/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 330,
+            "quantity": null,
+            "discountedPrice": 330,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          }
+        ],
+        "__typename": "RestaurantCategory"
+      },
+      {
+        "uid": "0x5196e9",
+        "name": "Healthy blend",
+        "bvid": "cd91cbe1-340a-4b9b-a4b4-c7f419befb32",
+        "imgUrl": "",
+        "showTitle": true,
+        "layout": "SideBySideLayout",
+        "products": [
+          {
+            "name": "Vital clinic ",
+            "barcode": "dri--lq",
+            "manufacturerCode": null,
+            "bvid": "3c378a33-20bf-467c-93af-0a74a45d0b1d",
+            "description": "Apple  ginger spinach beetroot lemon.",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/e8a906ea-2b96-43ed-d450-a950195a5b00/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/e8a906ea-2b96-43ed-d450-a950195a5b00/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 350,
+            "quantity": null,
+            "discountedPrice": 350,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Dr green ",
+            "barcode": "dri-Ue3",
+            "manufacturerCode": null,
+            "bvid": "65b3816d-cee5-44d3-82bd-db1d356bad31",
+            "description": "Apple cucumber Spanish lemon ginger ",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/ba26cfb8-5a9e-450c-f30c-71cf6250bc00/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/ba26cfb8-5a9e-450c-f30c-71cf6250bc00/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 330,
+            "quantity": null,
+            "discountedPrice": 330,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Immune booster ",
+            "barcode": "dri-T_v",
+            "manufacturerCode": null,
+            "bvid": "19f962bc-4ccd-44d7-97bb-a8da95a76c5e",
+            "description": "Apple Orange Grapefruit",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/f98e2600-56ff-4eb4-0383-61eb9abc8600/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/f98e2600-56ff-4eb4-0383-61eb9abc8600/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 350,
+            "quantity": null,
+            "discountedPrice": 350,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Sweet hulk ",
+            "barcode": "dri-kLK",
+            "manufacturerCode": null,
+            "bvid": "6ebf694e-aab6-4268-83ee-bdd803c9181f",
+            "description": "Apple beetroot carrot Spanish lemon ",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/2ff126f4-2257-476e-ecd7-3e97c73c0f00/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/2ff126f4-2257-476e-ecd7-3e97c73c0f00/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 350,
+            "quantity": null,
+            "discountedPrice": 350,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Revolve",
+            "barcode": "dri-jh6",
+            "manufacturerCode": null,
+            "bvid": "e67752c8-1958-4a2a-92e4-0dd01b41e4e0",
+            "description": "Orange carrot beetroot celery.",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/6f837a09-0a6a-4c18-dd84-c74f80739e00/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/6f837a09-0a6a-4c18-dd84-c74f80739e00/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 330,
+            "quantity": null,
+            "discountedPrice": 330,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          }
+        ],
+        "__typename": "RestaurantCategory"
+      },
+      {
+        "uid": "0x5196e5",
+        "name": "Seasonal juices",
+        "bvid": "69b8a6ee-74c9-4e21-8ac2-a04afdd74aea",
+        "imgUrl": "",
+        "showTitle": true,
+        "layout": "SideBySideLayout",
+        "products": [
+          {
+            "name": "Mandarin magic ",
+            "barcode": "dri-6CC",
+            "manufacturerCode": null,
+            "bvid": "544276ce-7683-41bd-9e30-145ba732d528",
+            "description": "Orange guava ginger ",
+            "loyaltyPoints": 0,
+            "images": [
+              {
+                "url": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/2546d810-2179-4d41-a15a-ba1f03e36a00/w=1000",
+                "thumbnailUrl": "https://imagedelivery.net/EtcVECyqIuOr1FjP12iTCg/2546d810-2179-4d41-a15a-ba1f03e36a00/w=115",
+                "__typename": "Image"
+              }
+            ],
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 370,
+            "quantity": null,
+            "discountedPrice": 370,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          },
+          {
+            "name": "Orange juice Regular ",
+            "barcode": "dri-Iza",
+            "manufacturerCode": null,
+            "bvid": "ad5cd016-d673-432b-b42c-f02dc16e8ece",
+            "description": "Orange juice with ice ",
+            "loyaltyPoints": 0,
+            "images": null,
+            "basePrice": 0,
+            "discountedBasePrice": 0,
+            "price": 280,
+            "quantity": null,
+            "discountedPrice": 280,
+            "preOrderTime": null,
+            "prepaidOnly": false,
+            "taxClass": {
+              "cashRate": 0,
+              "digitalRate": 0,
+              "isArchived": false,
+              "isInclusive": false,
+              "thirdSchedule": true,
+              "__typename": "TaxClass"
+            },
+            "cartonSize": 0,
+            "maxOrderQuantity": 0,
+            "minOrderQuantity": 0,
+            "__typename": "Product"
+          }
+        ],
+        "__typename": "RestaurantCategory"
+      }
+    ]
+  }
+}
