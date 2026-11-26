@@ -35,9 +35,10 @@ jobs:
           pnpm exec prisma migrate deploy
           pnpm run build
 
-      - name: Deploy Backend to Railway
-        uses: docker://ghcr.io/railwayapp/cli:latest
+      - name: Install Railway CLI & Deploy Backend
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
-        with:
-          args: up ./backend --path-as-root --service "${{ secrets.RAILWAY_SERVICE_NAME }}" --ci
+          RAILWAY_SERVICE_NAME: ${{ secrets.RAILWAY_SERVICE_NAME }}
+        run: |
+          npm i -g @railway/cli
+          railway up ./backend --path-as-root --service "$RAILWAY_SERVICE_NAME" --ci
