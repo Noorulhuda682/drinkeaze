@@ -1,4 +1,4 @@
-name: Deploy Backend (Render)
+name: Deploy Backend (Railway)
 
 on:
   push:
@@ -10,23 +10,34 @@ on:
 
 jobs:
   migrate-and-deploy:
-    name: Run Prisma Migrations & Trigger Render Deploy
+    name: Migrate Neon DB & Deploy to Railway
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: backend
     steps:
       - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "npm"
-          cache-dependency-path: backend/package-lock.json
-      - run: npm ci
-      - run: npx prisma generate
-      - run: npx prisma migrate deploy
+          cache: "pnpm"
+          cache-dependency-path: backend/pnpm-lock.yaml
+
+      - name: Install, Migrate & Build Backend
+        working-directory: backend
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      - run: npm run build
-      - name: Trigger Render Deploy Hook
-        run: curl -fsSL -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm exec prisma generate
+          pnpm exec prisma migrate deploy
+          pnpm run build
+
+      - name: Deploy Backend to Railway
+        uses: docker://ghcr.io/railwayapp/cli:latest
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+        with:
+          args: up ./backend --path-as-root --service "${{ secrets.RAILWAY_SERVICE_NAME }}" --ci
